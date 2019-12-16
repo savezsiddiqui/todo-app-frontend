@@ -14,9 +14,9 @@ class App extends Component {
             <Router>
                 <div className="container">
                     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href= "#" target="_blank">
+                        <Link to="/" className="navbar-brand">
                             <img src={logo} width="30" height="30" />
-                        </a>
+                        </Link>
                         <Link to="/" className="navbar-brand">MERN-Stack Todo App</Link>
                         <div className="collpase navbar-collapse">
                             <ul className="navbar-nav mr-auto">
